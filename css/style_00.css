@@ -1,0 +1,63 @@
+/* CSS style_00 */
+
+*{ margin:00px; padding:00px; box-sizing:border-box; font-size:16px; font-family: Open Sans Condensed, sans-serif; }
+
+#contennier_00{ position:absolute; max-width:1400px; width:100%; height:100%; background-color: #FFE4E1;}/* Fundo black de toda página */
+.fundo_00{ position:relative; width:90%; height:100%; left:05%; right:05%; background-color:#1c1c1c;
+box-shadow: 00px 05px 25px black; } /* Fundo do conteúdo da página */
+
+/* begin rede_00 ==== Imagens responsaveis pela social-media */
+.rede_00{ position:absolute; width:43.8461%; top:03%; float:left; left:45%;}
+
+.rede_00 > .rede-cont_00 > a > figure > img{ position:absolute; float:left; top:00; left:03%; width:09%; z-index:1; }
+.rede_00 > .rede-cont_00 > a > figure > img:hover{ box-shadow: 00px 00px 05px #CDB7B5; border-radius:03px; }
+
+.rede_00 > .rede-cont_01 > a > figure > img{ position:absolute; float:left; top:00; left:15%; width:09%; z-index:2;}
+.rede_00 > .rede-cont_01 > a > figure > img:hover{ box-shadow: 00px 00px 05px #CDB7B5; border-radius:03px; }
+
+.rede_00 > .rede-cont_02 > a > figure > img{ position:absolute; float:left; top:-01px; left:27%; width:09%; z-index:3;}
+.rede_00 > .rede-cont_02 > a > figure > img:hover{ box-shadow: 00px 00px 05px #CDB7B5; border-radius:03px; }
+/* end rede_00 */
+
+header > figure > img{ position:absolute; width:43.8461%; height:20%; top:03%; border-bottom-right-radius:20%; 
+border-top-right-radius:03%; box-shadow: 02px 06px 10px #9C9C9C; } /* Logo */
+
+/* begin menu principal */
+#contennier-Menu_00 > ul{position:absolute; float:right; right:10%; width:43.8461%; top:20%; text-transform:uppercase; font-size:0.7em;}
+#contennier-Menu_00 > ul > li{ position:relative; list-style:none; list-style-position:inside; display:inline-block; 
+padding-right:1.5%; padding-left:1.5%;}
+#contennier-Menu_00 > ul > li > a{ text-decoration:none; color:#363636; font-family:; letter-spacing:0.5px; background-color:;}
+#contennier-Menu_00 > ul > li > a:hover{ color:#696969;} 
+/* end Menu Principal */
+
+
+/* begin responsavel sobre quem é a Ully-Sol */
+.sobre-Ully_00 > img{ position:absolute; z-index:2; float:right; right:3.5%; max-width:100%; width:11.5%; height:17%; margin-top:1.5%; 
+background-color:black; border-radius:50%; box-shadow:01px 00px 05px #696969;}
+.fundo-sobre-Ully_00{ position:absolute; max-height:100%; z-index:1; top:05%; width:14.5%; height:45%; background-color:#FFFFF0; float:right; right:2%;
+border-top-left-radius:50%; border-top-right-radius:50%; border-bottom-left-radius:01%; border-bottom-right-radius:01%; padding-top:20%;
+box-shadow: 00px 01px 05px #CFCFCF;}
+.contennier-conteudo_00 > .conteudo-Ully_00 > p{ position:absolute; z-index:3; float:right; right:3.3%; width:11.5%; height:; top:20%;
+color:#363636; font-size:0.6875em; font-family:tahoma;}
+.contennier-conteudo_00 > .conteudo-Ully_00 > .assinatura_00{ position:relative; z-index:4; color:#363636; float:right; right:3.9%; 
+padding-top:28%; font-size:0.875em; font-family:impact;}
+/* end responsavel sobre quem é a Ully-Sol */
+
+.assinatura-email_00{ position:absolute; float:right; right:0.9%; z-index:5; top:50%;}
+.assinatura-email_00 > .email-input_00{  position: relative; border:none; z-index:6; float:right; right:8%; width:108%;
+border-bottom-left-radius:09px; border-bottom-right-radius:09px;}
+.assinatura-email_00 > .email-input_00::-webkit-input-placeholder{ color:#dcdcdc; padding-left:10%;}
+.assinatura-email_00 > .email-input_00:-moz-placeholder{  color:#dcdcdc; padding-left:10%;}
+.assinatura-email_00 > .email-input_00::-moz-placeholder{ color:#dcdcdc;  padding-left:10%;}
+.assinatura-email_00 > .email-input_00:-ms-input-placeholder{ color:#dcdcdc;  padding-left:10%;}
+.assinatura-email_00 > .email-input_01{ position:absolute; border:none; cursor:pointer; background-color:#FFE4E1; margin-top:-15%; 
+float:right; right:-07px; z-index:7;}
+
+/* begin contennier-cont-princip  ===== Conteudo principal da página*/
+#conteudo-principal_00{position: absolute; max-width:100%; width:53.7%; top:30%;}
+.contennier-cont-princip{float:left; left:00%;}
+#conteudo-principal_00 > .contennier-cont-princip > .linha_00{ position:absolute; background-color:#FFFFF0; max-width:100%; width:630px;
+height:02px; top:2.8em;}
+
+.contennier-cont-princip > h1{ position:absolute; max-width:100%; background-color:#FFFFF0; border-radius:02px; z-index:1; font-size:1.5em; 
+color:#363636; padding-top:01%; padding-bottom:0.3em; padding-left:08%; padding-right:10%; }

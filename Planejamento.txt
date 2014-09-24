@@ -1,0 +1,40 @@
+Make Tutoriais
+Compare > Produtos vs Qualidades *Aqui ficaria um SubTopico indicando o Produtos vs Qualidades sakas ;)
+Cuidados com a pele 
+Cuidados e dicas com cabelos  
+Indicação a produtos > Inferiores a preços porém muito semelhante aos caros *SubTopico
+
+
+
+
+<style type="text/css">
+
+#main {
+    margin: 40px;
+    height: 100px;
+    background-color: #004C80;
+    position: relative;
+    overflow: hidden;
+}
+
+#main div {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFF;
+}
+
+.top { top: -10px; }
+.bottom { bottom: -10px; }
+.left { left: -10px; }
+.right { right: -10px; }
+</style>
+<div id="main">
+    <div class="top left"></div>
+    <div class="top right"></div>
+    <div class="bottom left"></div>
+    <div class="bottom right"></div>
+</div>
+
+ 
